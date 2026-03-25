@@ -30,7 +30,7 @@ const PORT = process.env.PORT || 3000;
 // IMPORTANT: Replace this with your own MongoDB connection string.
 // For local MongoDB:     mongodb://127.0.0.1:27017/fest_registrations
 // For MongoDB Atlas:     mongodb+srv://<username>:<password>@cluster.mongodb.net/fest_registrations
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://Chikzz007:Luckyboy007@ac-figbyvt-shard-00-00.2szg0fu.mongodb.net:27017,ac-figbyvt-shard-00-01.2szg0fu.mongodb.net:27017,ac-figbyvt-shard-00-02.2szg0fu.mongodb.net:27017/?ssl=true&replicaSet=atlas-13wcso-shard-0&authSource=admin&appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://Abhii1234:Luckyboy007@ac-egohzkv-shard-00-00.c0nbt7k.mongodb.net:27017,ac-egohzkv-shard-00-01.c0nbt7k.mongodb.net:27017,ac-egohzkv-shard-00-02.c0nbt7k.mongodb.net:27017/?ssl=true&replicaSet=atlas-lxqhe6-shard-0&authSource=admin&appName=Cluster0';
 
 
 // ============================================================
