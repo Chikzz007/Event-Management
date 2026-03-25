@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fest Events — Register Now</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <a href="index.html" class="logo">Fest <span>2025</span></a>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <h1 class="hero-eyebrow">SYNERGY 2026</h1>
+    <h3>Choose Your <em>Event</em></h3>
+    <p class="hero-sub">
+      Select an event below to explore show timings and complete your registration.
+    </p>
+  </section>
+
+  <div class="divider">
+    <span class="divider-symbol">✦</span>
+  </div>
+
+  <!-- ===== EVENT CARDS SECTION ===== -->
+  <section class="events-section">
+    <p class="section-label">All Events</p>
+
+    <div class="events-grid">
+
+      <!-- Card 1: Lucida -->
+      <!--
+        Each card is an anchor tag that links to event.html.
+        We pass the event name as a query parameter (?event=Lucida)
+        so the event page knows which event was clicked.
+      -->
+      <a href="event.html?event=HackSphere" class="event-card HackSphere">
+        <div class="card-strip"></div>
+        <div class="card-body">
+          <p class="card-tag">Hackathon</p>
+          <h2 class="card-title">HackSphere</h2>
+          <p class="card-desc">
+            A dynamic hackathon where innovators come together to build, code, and solve real-world challenges in a high-energy collaborative environment.
+          </p>
+          <span class="card-cta">View Shows</span>
+        </div>
+      </a>
+
+      <!-- Card 2: TechNova -->
+      <a href="event.html?event=TechNova" class="event-card TechNova">
+        <div class="card-strip"></div>
+        <div class="card-body">
+          <p class="card-tag">Artificial Intelligence</p>
+          <h2 class="card-title">TechNova</h2>
+          <p class="card-desc">
+            A futuristic tech event showcasing innovation, creativity, and cutting-edge ideas that push the boundaries of technology.
+          </p>
+          <span class="card-cta">View Shows</span>
+        </div>
+      </a>
+
+      <!-- Card 3: Metanoia -->
+      <a href="event.html?event=Elite Showdown" class="event-card Elite Showdown">
+        <div class="card-strip"></div>
+        <div class="card-body">
+          <p class="card-tag">Gaming</p>
+          <h2 class="card-title">Elite Showdown</h2>
+          <p class="card-desc">
+            An intense gaming battleground where top players compete, strategize, and fight for ultimate victory and glory.
+          </p>
+          <span class="card-cta">View Shows</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    &copy; 2025 Fest. All rights reserved.
+  </footer>
+
+</body>
+</html>
