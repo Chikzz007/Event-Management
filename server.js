@@ -96,7 +96,7 @@ app.post('/register', async (req, res) => {
     }
 
     // ---- Normalize and validate event/time slot values ----
-    const allowedEvents = ['Lucida', 'Nrityadarpan', 'Metanoia', 'HackSphere'];
+    const allowedEvents = ['HackSphere', 'TechNova', 'Elite Showdown'];
     const allowedSlots  = ['12 PM', '3 PM'];
 
     const normalizedEventName = eventName.trim();
